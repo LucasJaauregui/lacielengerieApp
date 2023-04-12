@@ -1,13 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import {Login} from "./Login"
+import  ItemList  from './componentes/ItemList/ItemList';
+import { Navbar } from './componentes/Navbar/Navbar';
+
+
 function App() {
+  
+  let saludo = "Lucas"
+  let edad = "23"
+  
   return (
     <div className="App">
-      <login />
-      
+
+      <Navbar />
+      <ItemList saludo={saludo} edad={edad} /> 
     </div>
   );
 }
 
 export default App;
+

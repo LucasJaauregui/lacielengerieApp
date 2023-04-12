@@ -1,0 +1,14 @@
+.containerNavbar{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+        
+}
+.containerNavbar ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+}
